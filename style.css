@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  .container {
+    height: 2800px;
+    background-color: #fffdf8;
+    margin: 0 80px;
+    width: 1410px;
+
+  }
+  
+  .header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .logo-cont {
+    margin: 30px;
+  }
+  
+  .Nav-Menus {
+    position: relative;
+    right: 40px;
+    top: -10px;
+  }
+  
+
+.header-section .logo-cont img,
+.header-section .logo-cont span,
+.header-section .logo-cont p {
+  display: inline-block;
+
+ 
+}
+
+.header-section .logo-cont p{
+    position: relative;
+    top: -21px;
+    font-size: 25px;
+    color: #373737;
+}
+
+.header-section .logo-cont p::before{
+   content: "|";
+   position: relative;
+   color: #373737;
+   font-weight: 0px;
+   right: 30px;
+}
+.header-section .logo-cont span {
+    height: 60%;
+    width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 20%;
+   
+  
+  }
+  .header-section > .logo-cont > img > .divider{
+    background: rgba(0, 0, 0, 0.075);
+    display: block;
+  } 
+  
+
+
+
+.Nav-Menus ul {
+    list-style: none; 
+
+    display: inline-block; 
+  }
+
+  .Nav-Menus ul li {
+    display: inline-block; /* Display list items side by side */
+    margin-right: 15px; /* Add some spacing between list items */
+    
+
+  }
+  
+  
+
+.header-section  .Nav-Menus > ul >li > a{
+    text-decoration: none;
+    color: #373737; 
+    font-size: 20px;
+
+    
+    
+}
+
+.Nav-Menus > ul > .Ar ::before{
+  content: url(images/Polygon\ 1.png);
+  
+  position: relative;
+  top:5px;
+   padding-right: 10px;
+}
+.Nav-Menus > ul > .st ::before{
+  content: url(images/Cart.png);
+  
+  position: relative;
+  top:5px;
+   padding-right: 10px;
+}
+
+ .Nav-Menus .btn-1{
+  background-color: #184655;
+  width: 210px;
+  height: 50px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-decoration: none;
+  border: none;
+
+  
+ }
+
+ .Nav-Menus .btn-1> a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+
+ }
+ 
+ .BG-1,.footer-section {
+  background-image: url(images/BG.jpg);
+  width: 1350px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  position: relative;
+  left: 30px;
+}
+ .BG-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+ }
+
+ .HeroSection .Left-Content > h1{
+    letter-spacing: 1px;
+  font-size: 45px;
+  font-weight: 1000px;
+  color: #184655;
+  margin-bottom: 10px;
+ }
+ .HeroSection .Left-Content input{
+  height: 60px;
+  width:330px;
+  border-radius: 10px;
+  border: none;
+margin-top: 20px;
+  margin-bottom: 10px;
+
+ }
+
+ .HeroSection .Left-Content button{
+  height: 60px;
+  width:150px;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+  border: none;
+  position: relative;
+  right: 10px;
+  background-color:  #184655;
+  color: white;
+  font-size: 15px;
+
+ }
+
+ .HeroSection .Left-Content ul > li{
+    display: inline-block;
+    list-style: none;
+    padding: 12px;
+    color: #53748C;
+
+    font-size: 20px;
+ }
+
+
+
+ form input[type="text"] {
+    background-image: url("images/search.png");
+    background-repeat: no-repeat;
+    background-size: 25px 25px; /* Adjust the size of the image */
+    background-position: 10px center; /* Adjust the position of the image */
+    padding-left: 40px; /* Create space for the image */
+  }
+
+  /* form input[type="text"] {
+    font-size: 20px;
+    position: relative;
+   
+  } */
+
+
+
+  /* LATEST BLOG SECTION */
+  
+  .latest-blogs-section{
+    display: flex;
+    background-image: url(images/Rectangle\ 28.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 40px;
+    width: 1350px;
+    left: 30px;
+
+  }
+    
+.latest-blogs-section > .latest-Blog-Pic{
+    margin: 25px;
+
+}
+
+.latest-blogs-section h2{
+    color: #404040;
+ 
+    font-size: 40px;
+    font-weight: 100px;
+
+
+    
+}
+.latest-blogs-section h2,p,span{
+    margin: 10px;
+}
+
+
+.latest-blogs-section h2{
+  margin-top: 50px;
+}
+
+.latest-blogs-section p{
+    line-height: 35px;
+    font-size: 27px;
+    color: #464343;
+    width: 610px;
+
+}
+
+.latest-blogs-section .author-date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    color: #6F6E6E;
+  
+   
+}
+
+
+
+
+ /* MORE BLOG SECTION */
+
+ .more-blogs-section{
+    display: flex;
+    
+ }
+
+
+ .Card img{
+  width: 430px;
+  border-radius: 20px;
+ }
+ .Card{
+  margin: 70px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 490px;
+  border-radius: 30px;
+
+ }
+
+ .Card p{
+  color: #464343;
+  word-spacing: 2px;
+  line-height: 20px;
+  
+ }
+ .Card h2{
+  color: #4A4848;
+  padding: 15px;
+ }
+
+ .Card .end{
+   text-align: end;
+ 
+   font-size: 20px;
+   color: #213949;
+ }
+ .Card .author-2, .date-2{
+  color: #6F6E6E;
+  
+ 
+
+ }
+ .Card .date-2{
+  position: relative;
+  left: 180px;
+ }
+
+ .Card .author-2{
+  padding: 7px;
+
+ }
+
+
+
+ /* FOOTER SECTION */
+
+ .footer-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+
+ .footer-section img{
+   width: 600px;
+ }
+
+ .footer-section #p1{
+  font-size: 40px;
+ }
+
+ .footer-section h2{
+  font-size: 60px;
+
+ }
+
+ .footer-section .last-p{
+  font-size: 40px;
+   position: relative;
+   top: -15px;
+   left: -10px;
+
+ }
+ .footer-section p{
+  position: relative;
+  top: 10px;
+  left: -15px;
+ }
+
+ .footer-section .foot-BG{
+    margin: 0px 100px;
+    position: relative;
+    top : -70px;
+    left: 20px;
+ }
+
+ .footer-section button{
+  color: white;
+  font-size: 30px;
+   width: 250px;
+   height: 50px;
+    background: linear-gradient(to right, rgb(71, 71, 150),rgb(68, 131, 155),rgb(85, 201, 190));
+   border-radius: 50px;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.70) 0px 3px 8px;
+ }
+    
+  
